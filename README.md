@@ -39,6 +39,7 @@ It will show a QR code and a URL. You can use either to connect your phone.
 ### 📱 On Your Phone
 
 Scan the QR code or open the URL in your browser. You’ll see two large buttons:
+
 	•	⬅️ Previous slide (← key)
 	•	➡️ Next slide (→ key)
 
