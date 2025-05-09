@@ -72,7 +72,7 @@ async fn index() -> impl IntoResponse {
 async fn main() {
     // get local IP
     let ip = local_ip().unwrap();
-    let addr = SocketAddr::from((ip, 8000));
+    let addr = SocketAddr::from((ip, 6666));
 
     // generate QR code
     let url = format!("http://{}:8000", ip);
