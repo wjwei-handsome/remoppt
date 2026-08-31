@@ -75,7 +75,7 @@ async fn main() {
     let addr = SocketAddr::from((ip, 6666));
 
     // generate QR code
-    let url = format!("http://{}:8000", ip);
+    let url = format!("http://{}:6666", ip);
     println!("📱 Please Scan the QR code to open the page:");
     print_qr(&url).unwrap();
     // let code = QrCode::new(&url).unwrap();
